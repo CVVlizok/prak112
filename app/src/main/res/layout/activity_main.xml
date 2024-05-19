@@ -76,7 +76,7 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/res"
+            android:id="@+id/result"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
