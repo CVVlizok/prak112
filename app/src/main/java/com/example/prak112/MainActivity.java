@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
         TextView resultView = (TextView) findViewById(R.id.result);
         // Выполняем запрос к провайдеру контента для получения данных
         Cursor cursor = getContentResolver().query(Uri.parse
-                ("content://com.demo.user.pгггrovider/users"),
+                ("content://com.demo.user.provider/users"),
                 null, null, null, null);
         // Проверяем, есть ли данные в результате запроса
         if (cursor.moveToFirst()) {
